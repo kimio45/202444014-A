@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) 
+{  
+  system("title 정수형 데이터의 자릿수 지정 형식");
+
+  printf("l%dl",358);
+  printf(": 정수형 기본 자릿수 \n");
+
+  printf("l%5dl",358);
+  for(int a=65; a <= 90; a++) {
+    printf("%c",a);
+  }
+}
